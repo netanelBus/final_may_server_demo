@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
@@ -13,7 +14,7 @@ const port = 5000;
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
-app.get('/test', (req, res) => res.json('may final demo'));
+app.get('/test', (req, res) => res.json(process.env.NISIM));
 
 // app.post('/singers/new/form', express.urlencoded({ extended: true }), (req, res) => {
 // 	const { fname, lname, age } = req.body;
