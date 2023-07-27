@@ -1,0 +1,29 @@
+// ישויות הפרויקט במידה ועושים חנות וירטואלית למשל
+
+Product
+    id
+    name
+    price
+    Category
+    description
+    stock
+
+Userm / Client
+    idfname
+    lname
+    email
+    phone
+    address
+    favourites Products list
+
+Order
+    id
+    Cart 
+    date
+
+Category
+    id
+    name
+
+
+

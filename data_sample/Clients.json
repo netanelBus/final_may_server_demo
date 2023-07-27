@@ -1,0 +1,37 @@
+[
+    {
+        "clientId": 1,
+        "fname": "nati",
+        "lname": "buskila",
+        "email": "natnat@gmail.com",
+        "phone": "0545376337",
+        "address": "הקיקיון 2/7 אשקלון"
+    },
+    {
+        "clientId": 2,
+        "fname": "dudi",
+        "lname": "ohayon",
+        "email": "dudioh@gmail.com",
+        "phone": "0528358582",
+        "address": "הרב מימון 1",
+        "favourites": 20
+    },
+    {
+        "clientId": 1,
+        "fname": "mask black caviar",
+        "lname": 10,
+        "email": 1,
+        "phone": "aaa",
+        "address": 100,
+        "favourites": 20
+    },
+    {
+        "clientId": 1,
+        "fname": "mask black caviar",
+        "lname": 10,
+        "email": 1,
+        "phone": "aaa",
+        "address": 100,
+        "favourites": 20
+    }
+]

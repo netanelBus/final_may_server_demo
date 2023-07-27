@@ -1,0 +1,22 @@
+[
+    {
+        "categorieId": 1,
+        "name": "Hair Mask"
+    },
+    {
+        "categorieId": 2,
+        "name": "Hair Spray"
+    },
+    {
+        "categorieId": 3,
+        "name": "Hair Styling"
+    },
+    {
+        "categorieId": 4,
+        "name": "Hair Straightening"
+    },
+    {
+        "categorieId": 5,
+        "name": "Electric device"
+    }
+]

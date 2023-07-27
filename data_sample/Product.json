@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Mask black caviar",
+        "price": 150,
+        "CategoryId": "1",
+        "description": "Hair Mask",
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "name": "Mask white & gold",
+        "price": 180,
+        "CategoryId": "1",
+        "description": "Hair Mask",
+        "stock": 200
+    },
+    {
+        "id": 3,
+        "name": "Mask hairssence",
+        "price": 130,
+        "CategoryId": "1",
+        "description": "Hair Mask",
+        "stock": 300
+    },
+    {
+        "id": "4",
+        "name": "Silhouette spray superhold",
+        "price": 70,
+        "CategoryId": "2",
+        "description": "Hair Spray",
+        "stock": 100
+    },
+    {
+        "id": "5",
+        "name": "Osis+ volume up",
+        "price": 60,
+        "CategoryId": "2",
+        "description": "Hair Spray",
+        "stock": 100
+    },
+    {
+        "id": "6",
+        "name": "15 Creative",
+        "price": 79,
+        "CategoryId": "2",
+        "description": "Hair Spray",
+        "stock": 100
+    },
+    {
+        "id": "7",
+        "name": "Styling glaze",
+        "price": 50,
+        "CategoryId": "3",
+        "description": "Hair Styling",
+        "stock": 100
+    },
+    {
+        "id": "8",
+        "name": "Osmo clay wax",
+        "price": 60,
+        "CategoryId": "3",
+        "description": "Hair Styling",
+        "stock": 100
+    },
+    {
+        "id": "9",
+        "name": "Indian oil organic",
+        "price": 50,
+        "CategoryId": "4",
+        "description": "Hair Straightening",
+        "stock": 200
+    },
+    {
+        "id": "10",
+        "name": "Coconut oil organic",
+        "price": 50,
+        "CategoryId": "4",
+        "description": "Hair Straightening",
+        "stock": 200
+    },
+    {
+        "id": "11",
+        "name": "מסלסל שיער קרמי Babyliss C625E",
+        "price": 150,
+        "CategoryId": "5",
+        "description": "Electric device",
+        "stock": 100
+    },
+    {
+        "id": "12",
+        "name": "מחליק שיער DYSON CORRALE",
+        "price": 1799,
+        "CategoryId": "5",
+        "description": "Electric device",
+        "stock": 100
+    }
+
+]
