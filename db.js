@@ -24,6 +24,15 @@ async function getAllProducts() {
     return await Product.find({});
 };
 
+async function getAllOrders() {
+    return await Order.find({});
+};
+
+async function getAllUsers() {
+    return await User.find({});
+};
+
+
 async function disconnect() { //index.js זה נדרש לקוד שב 
     await mongoose.disconnect();
 }
@@ -44,6 +53,8 @@ async function insertNewProduct(name, price, categoryId, description) {//product
 module.exports = {
     connectToMyMongoDB,
     getAllProducts,
+    getAllOrders,
+    getAllUsers,
     disconnect,
     getProductById, 
     insertNewProduct,

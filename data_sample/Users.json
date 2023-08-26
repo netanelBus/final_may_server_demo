@@ -1,6 +1,6 @@
 [
     {
-        "clientId": 1,
+        "userId": 1,
         "fname": "nati",
         "lname": "buskila",
         "email": "natnat@gmail.com",
@@ -8,7 +8,7 @@
         "address": "הקיקיון 2/7 אשקלון"
     },
     {
-        "clientId": 2,
+        "userId": 2,
         "fname": "dudi",
         "lname": "ohayon",
         "email": "dudioh@gmail.com",
@@ -17,7 +17,7 @@
         "favourites": 20
     },
     {
-        "clientId": 1,
+        "userId": 1,
         "fname": "mask black caviar",
         "lname": 10,
         "email": 1,
@@ -26,7 +26,7 @@
         "favourites": 20
     },
     {
-        "clientId": 1,
+        "userId": 1,
         "fname": "mask black caviar",
         "lname": 10,
         "email": 1,

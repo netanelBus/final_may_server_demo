@@ -3,18 +3,19 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 const app = express();
-const port = 6000;
-const mongoose = require('mongoose');
+const port = 5000;
+const mongoose = require("mongoose");
 const { connectToMyMongoDB } = require('./db.js');
-const Singer = require('./Singer.js');
+
+
+connectToMyMongoDB();
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
-app.get('/singers', async (req, res) => { 
-    const singers = await Singer.find({});
-    res.json(singers);
- });
+app.use('/users', require('./routes/usersRoute.js'))
+app.use('/products', require('./routes/productsRoute.js'))
+app.use('/orders', require('./routes/ordersRoute.js'))
 
 app.get('/test', (req, res) => {
     res.json(process.env.NISIM)

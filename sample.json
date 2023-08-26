@@ -1,0 +1,33 @@
+{
+    "products": [
+        {
+            "name": "Mask black caviar",
+            "price": 150,
+            "CategoryId": "1",
+            "description": "Hair Mask",
+            "stock": 100
+        }
+    ],
+   "orders": [
+        {
+            "orderId": "000001",
+            "clientId": "1",
+            "productId": "1",
+            "cart": "mask black caviar",
+            "date": 10,
+            "stock": 100,
+            "phone": "0528358582",
+            "address": "הרב מימון 1"
+        }
+    ],
+    "users": [
+        {
+            "userId": 1,
+            "fname": "nati",
+            "lname": "buskila",
+            "email": "natnat@gmail.com",
+            "phone": "0545376337",
+            "address": "הקיקיון 2/7 אשקלון"
+        }
+    ]
+}
